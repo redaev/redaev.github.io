@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Journal</title>
+  <meta name="description" content="Journal" />
+  <style>
+    :root{--bg:#fff;--fg:#111;--muted:#6b7280;--link:#0b57d0;--border:#e5e7eb;--max:720px}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b0b0b;--fg:#eaeaea;--muted:#9aa0a6;--link:#8ab4f8;--border:#222}}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,ui-sans-serif}
+    .wrap{max-width:var(--max);margin:0 auto;padding:36px 16px}
+    header h1{font-size:26px;line-height:1.2;margin:0 0 6px}
+    header p{margin:0;color:var(--muted)}
+    hr{border:none;border-top:1px solid var(--border);margin:24px 0}
+    ul{list-style:none;padding:0;margin:0}
+    li{margin:10px 0}
+    .date{color:var(--muted);margin-right:10px;white-space:nowrap}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{margin-top:36px;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Journal</h1>
+    </header>
+
+    <hr>
+
+    <main>
+      <ul id="entries"></ul>
+    </main>
+
+    <footer>
+      <hr>
+      <p>© <span id="year"></span>.</p>
+    </footer>
+  </div>
+
+  <script>
+    const ENTRIES = [
+      { date: '2025-11-04', title: 'Deux naissances', href: 'notes/2025-11-04.html' }
+    ]
+
+    // Tri décroissant par date (format AAAA-MM-JJ)
+    ENTRIES.sort((a,b) => b.date.localeCompare(a.date))
+
+    // Rendu
+    const ul = document.getElementById('entries')
+    ul.innerHTML = ENTRIES.map(e => `
+      <li><span class="date">${e.date}</span><a href="${e.href}">${e.title}</a></li>
+    `).join('')
+
+    // Copyright dynamique
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
