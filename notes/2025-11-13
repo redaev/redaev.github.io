@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Les déserts du sang</title>
+  <style>
+    :root{--bg:#fff;--fg:#111;--muted:#666;--link:#0b57d0;--border:#e5e7eb;--max:720px}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b0b0b;--fg:#eaeaea;--muted:#9aa0a6;--link:#8ab4f8;--border:#222}}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,ui-sans-serif}
+    .wrap{max-width:var(--max);margin:0 auto;padding:36px 16px}
+    header h1{font-size:26px;line-height:1.2;margin:0 0 6px}
+    header .meta{color:var(--muted);font-size:14px;margin:0}
+    hr{border:none;border-top:1px solid var(--border);margin:24px 0}
+    article p{margin:16px 0}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    article p {
+      margin: 20px 0;
+      line-height: 1.75;
+    }
+    article blockquote {
+      margin: 24px 0;
+      padding-left: 14px;
+      border-left: 3px solid var(--border);
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Les déserts du sang</h1>
+      <p class="meta">2025-11-13</p>
+    </header>
+    <hr>
+    <article>
+
+      <p>La substantifique moelle de l'aplasie médullaire est le vide. Une moelle osseuse désertée par la vie. Un terrain asséché, comblé par de la graisse. Le Dr Thomas L. m’a montré une carotte de moelle osseuse au cours des ponctions qu’il a réalisées lors de mon diagnostic. Cette aridité était visible à l’œil nu. La population cellulaire normale avait été décimée. Aucune trace non plus d’une colonisation par des populations immatures nommées blastes, comme on les observe dans les syndromes myélodysplasiques ou les leucémies.</p>
+
+      <p>Juste le désert. Une sécheresse qui a insidieusement gagné mon sang, jusqu’à une pancytopénie sévère. Les érythrocytes diminuent. Les plaquettes et les globules blancs aussi. Les lignées s’éteignent, incapables de se renouveler. Une lente extinction de la vie.</p>
+
+      <p>Cette perte de vitalité est invisible aux autres, et surtout à soi-même. Le choc du diagnostic a été à la hauteur du déni de ma fatigue durant les mois précédents. Mathias Malzieu décrit ce même basculement dans l’incipit de son <i>Journal d’un vampire en pyjama</i>.</p>
+
+      <p>Comment imaginer qu’à l’intérieur de soi, le désert s’étende ?</p>
+
+      <p>Les explorations menées entre le diagnostic, l’étiologie et le traitement (une greffe syngénique) m’ont ramené vers d’autres déserts : ceux de mes origines. Du côté de ma mère, les Rehamna, tribu arabo-berbère venue du Yémen et installée au nord du Sahara marocain. Du côté de mon père, les Kabyles de Jijel. Une terre fertile, parmi les plus verdoyantes d’Algérie, au bord de la Méditerranée. Ce désert-là était biographique : je n’y ai jamais mis les pieds.</p>
+
+      <p>L’anamnèse familiale, en m’obligeant à interroger des parents lointains dont j’ignorais l’existence, dévoilait un paysage chargé d’hématopathies. Et dans mon propre sang, une hémoglobinémie fœtale persistante, que j’avais toujours attribuée à une bêta-thalassémie mineure.</p>
+
+      <p>Le premier bilan a montré qu’il n’en était rien. Il fallait donc aller plus loin : sonder mes origines non plus dans la terre, mais dans mon génome ; chercher un exome précis ; mesurer la longueur de mes télomères.</p>
+
+      <p>Est-ce que, dans les déserts qui m’avaient engendré, les oasis de gènes voyaient pousser des arbres trop courts ?</p>
+
+      <p>Ma vie en dépendait. Heureusement, ces déserts-là étaient sains. Et la greffe pouvait me sauver.</p>
+
+    </article>
+    <hr>
+    <p><a href="/">← Accueil</a></p>
+  </div>
+</body>
+</html>
