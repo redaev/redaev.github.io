@@ -1,2 +1,2 @@
 # reda.github.io
-journal
+Aplasie — Journal d’une greffe syngénique
