@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>We made it</title>
+  <meta name="robots" content="noindex, nofollow, noimageindex">
+  <meta name="googlebot" content="noimageindex">
+  <meta name="referrer" content="no-referrer" />
+
+  <style>
+    :root{--bg:#fff;--fg:#111;--border:#e5e7eb;--max:720px}
+    @media (prefers-color-scheme: dark){
+      :root{--bg:#0b0b0b;--fg:#eaeaea;--border:#222}
+    }
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--fg);
+      font:17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,ui-sans-serif;
+    }
+    .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:36px 16px;
+    }
+    header h1{
+      font-size:26px;
+      line-height:1.2;
+      margin:0 0 6px;
+    }
+    header .meta{
+      color:#666;
+      font-size:14px;
+      margin:0;
+    }
+    hr{border:none;border-top:1px solid var(--border);margin:24px 0}
+    img{
+      display:block;
+      width:100%;
+      height:auto;
+      margin:0 auto;
+      border-radius:4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>We made it</h1>
+      <p class="meta">2025-11-26</p>
+    </header>
+    <hr>
+    <article>
+      <img src="/img/madeit.jpg" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+    </article>
+    <hr>
+    <p><a href="/">← Accueil</a></p>
+  </div>
+</body>
+</html>
